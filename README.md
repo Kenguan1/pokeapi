@@ -12,8 +12,9 @@ Usé Vite ya que también lo usé la última vez que consumí una API de gatos q
 
 - Para la database usé:
 ```
-  npm install firebase (luego crear y configurar el firebase.js dentro de /src con mis keys)
+  npm install firebase 
 ```
+(luego crear y configurar el firebase.js dentro de /src con mis keys)
 
 - Para correr el proyecto simplemente:
 ```
