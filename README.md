@@ -60,9 +60,9 @@ Responsive:
 Hay unas pequeñas transiciones que no se alcanzan a apreciar con imágenes y dan una experiecia agradable
 
 DEMO en: https://ken1pokeapi.netlify.app/login
-Sé que no era necesario el deploy, lo hice para probar en otro dispositivos
+Sé que no era necesario el deploy, lo hice para asegurarme al 100% que funcionaba el responsive en otros dispositivos
 
-Hay un par de detalles que por hacer el deploy rápido y sencillo no se ven tal cual, como el footer
+Hay un par de detalles que por hacer el deploy rápido y sencillo no se ven tal cual, como el footer.
 
 
 
