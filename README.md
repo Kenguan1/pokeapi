@@ -23,6 +23,7 @@ Cuándo el usuario o contraseña no coinciden:
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/a1afff53-2fc6-48d0-b097-20cb85ff47f6)
 
 Cuándo se inicia sesión correctamente:
+
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/5ad3d1ec-ea81-43dc-bf92-b9e831e5707b)
 
 
@@ -30,6 +31,7 @@ REGISTRAR("/register") vamos desde la página /login cuándo le damos al botón 
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/7f68edb5-fd66-4307-bf33-0e3f767f38e8)
 
 Cuándo el correo ya está en uso:
+
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/25cf7d18-c0d2-4ac7-a4ff-1633ed8be551)
 
 
