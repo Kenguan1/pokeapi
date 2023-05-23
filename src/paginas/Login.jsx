@@ -79,6 +79,8 @@ function Login() {
           </>
         )}
       </div>
+      {!isLoggedIn && <Link to="/"><button className="menuBotonMini">Ir al Menú</button></Link>}
+      
     </div>
   )
 }

@@ -4,7 +4,7 @@
     min-height: 75vh;
     justify-content: center;
     align-items: center;
-	margin-bottom: 45px;
+	margin-bottom: 10rem;
     
 }
 
@@ -20,6 +20,7 @@
     background-position: center ;
     background-repeat: no-repeat;
     color: white;
+    margin-bottom: 0.7rem;
 }
 
 
@@ -45,6 +46,7 @@
     background-color: rgb(37, 37, 213);
     padding: 3px;
     transition: 0.1s;
+    max-width: 195px;
 }
 
 .login button:hover{
@@ -107,5 +109,19 @@
 }
 
 .authDetails .menuBotonMini:hover{
+    background-color: rgb(101, 144, 245);
+}
+
+.containerLogin .menuBotonMini{
+    cursor: pointer;
+    margin-top: 1rem;
+    border-radius: 5%;
+    color: white;
+    padding: 5px;
+    background-color: rgb(37, 37, 213);
+    transition: 0.1s;
+}
+
+.containerLogin .menuBotonMini:hover{
     background-color: rgb(101, 144, 245);
 }

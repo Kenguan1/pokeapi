@@ -1,5 +1,4 @@
 .footer {
-    
     width: 100%;
     height: 90px;
     background-color: rgba(75, 110, 197, 0.7);
@@ -10,6 +9,7 @@
     align-items: center;
     padding-top: 10px;
     gap: 10px;
+    margin-top: 0.6rem;
   }
   
 .socialMedia a{
