@@ -1,0 +1,47 @@
+.containerLogin{ /*reusamos una clase */
+    display: flex;
+    flex-direction: column;
+    min-height: 75vh;
+    justify-content: center;
+    align-items: center;
+	margin-bottom: 45px;
+    
+}
+
+.containerForm{
+    padding: 10px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    max-width: 30rem;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c5069763-9098-4808-b222-a0089bb5786d/dcrrow9-6eb749e4-5308-4985-ac0b-20e432f8425c.png/v1/fill/w_1600,h_2846,q_80,strp/pokedex_phone_wallpaper_by_drboxhead_dcrrow9-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Mjg0NiIsInBhdGgiOiJcL2ZcL2M1MDY5NzYzLTkwOTgtNDgwOC1iMjIyLWEwMDg5YmI1Nzg2ZFwvZGNycm93OS02ZWI3NDllNC01MzA4LTQ5ODUtYWMwYi0yMGU0MzJmODQyNWMucG5nIiwid2lkdGgiOiI8PTE2MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.np-kqNxcquZ_PQMMY5BIw44HX2ccec7_5auukla8gKc);
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.register{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    border: 3px solid rgb(209, 209, 227);
+    border-radius: 5px;
+    margin: 40px auto;
+    padding: 1.6rem;
+    
+}
+
+.register button{
+    margin-top: 0.5rem;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(37, 37, 213);
+    padding: 3px;
+    transition: 0.1s;
+}
+
+.register button:hover{
+    background-color: blue;
+}

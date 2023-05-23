@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&family=JetBrains+Mono:wght@300;500;700&display=swap');
+
+/* fuente de los colores de los types: https://pokemondb.net/type/ */
+:root {
+	--color-fire: #f42;
+	--color-grass: #7c5;
+	--color-water: #39f;
+	--color-flying: #89f;
+	--color-normal: #aa9;
+	--color-poison: #a59;
+	--color-bug: #ab2;
+	--color-electric: #fc3;
+	--color-ice:#6cf;
+	--color-fighting:#b54;
+	--color-ground:#db5;
+	--color-psychic:#f59;
+	--color-rock:#ba6;
+	--color-ghost: #66b;
+	--color-dragon:#76e;
+	--color-dark: #754;
+	--color-steel: #aab;
+	--color-fairy:#e9e;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'JetBrains Mono';
+}
+
+body {
+	overflow-y: scroll; /* siempre esté presente el scroll para que cuando pase de página a una sin scroll (pokeDisplay) no se muevan los elementos ligeramente a la derecha */
+}
+
+.container {
+	max-width: 1250px;
+	margin: 0 auto;
+	margin-top: 2.1rem;
+	margin-bottom: 1.4rem;
+	
+}
+
+
+/* tipos de pokemon, esto es clave para que según la type que nos de la API la stiqueta cambie de color */
+.water {
+	background-color: var(--color-water);
+}
+
+.grass {
+	background-color: var(--color-grass);
+}
+
+.poison {
+	background-color: var(--color-poison);
+}
+
+.fire {
+	background-color: var(--color-fire);
+}
+
+.bug {
+	background-color: var(--color-bug);
+}
+
+.flying {
+	background-color: var(--color-flying);
+}
+
+.normal {
+	background-color: var(--color-normal);
+}
+
+.electric {
+	background-color: var(--color-electric);
+}
+
+.ice {
+	background-color: var(--color-ice);
+}
+
+.fighting {
+	background-color: var(--color-fighting);
+}
+
+.ground {
+	background-color: var(--color-ground);
+}
+
+.psychic {
+	background-color: var(--color-psychic);
+}
+
+.rock {
+	background-color: var(--color-rock);
+}
+
+.ghost {
+	background-color: var(--color-ghost);
+}
+
+.dragon {
+	background-color: var(--color-dragon);
+}
+
+.dark {
+	background-color: var(--color-dark);
+}
+
+.steel {
+	background-color: var(--color-steel);
+}
+
+.fairy {
+	background-color: var(--color-fairy);
+}
