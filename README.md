@@ -1,8 +1,19 @@
 # pokeapi
-Reto usando la pokeapi en el que se usó React con Vite y Firebase para la db
+Reto usando la pokeapi en el que se usó React con Vite y Firebase para la db:
+Para inicializar el proyecto usé :
+  npm init vite
+escoger la opción de React y luego JavaScript
+Luego adentro usé:
+  npm install firebase (luego crear y configurar el firebase.js dentro de /src con mis keys)
+
+Para correr el proyecto simplemente:
+  npm run dev
+
+Por otro lado, usé más herramientas que ya tenía instaladas cómo React Router para manejar las rutas.
 
 
-Vistas del proyecto:
+
+VISTAS DEL PROYECTO:
 
 HOME ("/"):
 
@@ -33,6 +44,13 @@ REGISTRAR("/register") vamos desde la página /login cuándo le damos al botón 
 Cuándo el correo ya está en uso:
 
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/25cf7d18-c0d2-4ac7-a4ff-1633ed8be551)
+
+Responsive:
+
+
+![image](https://github.com/Kenguan1/pokeapi/assets/49210338/eb97eb53-f58d-4b79-9544-52bf030e9187)
+![image](https://github.com/Kenguan1/pokeapi/assets/49210338/e34ec89c-0072-431a-b14d-339e74457d5d)
+![image](https://github.com/Kenguan1/pokeapi/assets/49210338/39f858dc-d041-4c08-a191-699bdb6907d5)
 
 
 Hay unas pequeñas transiciones que no se alcanzan a apreciar con imágenes y dan una experiecia agradable
