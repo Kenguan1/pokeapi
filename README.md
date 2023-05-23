@@ -1,56 +1,60 @@
-# pokeapi
-Reto usando la pokeapi en el que se usó React con Vite y Firebase para la db
+# pokeapi ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
+#### Reto con la [Pokeapi](https://pokeapi.co/) en el que se usó React con Vite y Firebase para la db
 
+##SETUP
+- Para inicializar el proyecto usé Vite :
+```
+  npm init vite 
+```
+(Escoger la opción de React y luego JavaScript)
 
-Para inicializar el proyecto usé :
+Usé Vite ya que también lo usé la última vez que consumí una API de gatos que está también en mis repositorios, previamente había tenido un par de problemas con el npx create-react-app para consumir algunas APIs
 
-  npm init vite (Escoger la opción de React y luego JavaScript)
-
-Luego adentro usé:
-
+- Para la database usé:
+```
   npm install firebase (luego crear y configurar el firebase.js dentro de /src con mis keys)
+```
 
-Para correr el proyecto simplemente:
-
+- Para correr el proyecto simplemente:
+```
   npm run dev
-
+```
 Por otro lado, usé más herramientas que ya tenía instaladas cómo React Router para manejar las rutas.
 
 
-VISTAS DEL PROYECTO:
+##VISTAS DEL PROYECTO:
 
-HOME ("/"):
+###HOME ("/"):
 
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/e0c8445e-11b7-442b-ab85-7b621dbcd274)
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/8518e4e6-c6ac-4008-90fa-76fef335ad87)
 
 
-POKEDISPLAY ("/pokemon/id"): Cuándo estamos autenticados y le damos click a un Pokémon:
+###POKEDISPLAY ("/pokemon/id"): Cuándo estamos autenticados y le damos click a un Pokémon:
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/3a46e39a-673e-4560-9e6c-3527f6b17cbc)
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/da09868b-7584-4de1-98b5-1cc98412e3e0)
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/94c4b3ea-a1e9-4ac3-aebc-80d2d6e7de68)
 
 
-LOGIN("/login"): Cuándo le damos a la opción "SESIÓN" de la navbar o tratamos de entrar a la vista de un Pokémon sin estar autenticados
+###LOGIN("/login"): Cuándo le damos a la opción "SESIÓN" de la navbar o tratamos de entrar a la vista de un Pokémon sin estar autenticados
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/4cd2e2ff-266a-4c21-bd89-7123e324fc27)
 
-Cuándo el usuario o contraseña no coinciden:
+#####Cuándo el usuario o contraseña no coinciden:
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/d8b45e90-7da0-4b35-b7bd-dfca909a75c4)
 
-Cuándo se inicia sesión correctamente:
+#####Cuándo se inicia sesión correctamente:
 
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/5ad3d1ec-ea81-43dc-bf92-b9e831e5707b)
 
 
-REGISTRAR("/register") vamos desde la página /login cuándo le damos al botón "Registrar acá": 
+###REGISTRAR("/register") vamos desde la página /login cuándo le damos al botón "Registrar acá": 
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/7f68edb5-fd66-4307-bf33-0e3f767f38e8)
 
-Cuándo el correo ya está en uso:
+#####Cuándo el correo ya está en uso:
 
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/25cf7d18-c0d2-4ac7-a4ff-1633ed8be551)
 
-Responsive:
-
+#####Responsive:
 
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/eb97eb53-f58d-4b79-9544-52bf030e9187)
 ![image](https://github.com/Kenguan1/pokeapi/assets/49210338/e34ec89c-0072-431a-b14d-339e74457d5d)
@@ -59,10 +63,10 @@ Responsive:
 
 Hay unas pequeñas transiciones que no se alcanzan a apreciar con imágenes y dan una experiecia agradable
 
-DEMO en: https://ken1pokeapi.netlify.app/
+###DEMO en: https://ken1pokeapi.netlify.app/
 Sé que no era necesario el deploy, lo hice para asegurarme al 100% que funcionaba el responsive en otros dispositivos
 
-Hay un par de detalles que por hacer el deploy rápido y sencillo no se ven tal cual, como el footer.
+Hay un par de detalles que por hacer el deploy rápido y sencillo no se ven tal cual.
 
 
 
