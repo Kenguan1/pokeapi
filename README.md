@@ -32,10 +32,10 @@ POKEDISPLAY ("/pokemon/id"): Cuándo estamos autenticados y le damos click a un 
 
 
 LOGIN("/login"): Cuándo le damos a la opción "SESIÓN" de la navbar o tratamos de entrar a la vista de un Pokémon sin estar autenticados
-![image](https://github.com/Kenguan1/pokeapi/assets/49210338/ec123fdd-f75f-49b5-bf5b-facbb3655251)
+![image](https://github.com/Kenguan1/pokeapi/assets/49210338/4cd2e2ff-266a-4c21-bd89-7123e324fc27)
 
 Cuándo el usuario o contraseña no coinciden:
-![image](https://github.com/Kenguan1/pokeapi/assets/49210338/a1afff53-2fc6-48d0-b097-20cb85ff47f6)
+![image](https://github.com/Kenguan1/pokeapi/assets/49210338/d8b45e90-7da0-4b35-b7bd-dfca909a75c4)
 
 Cuándo se inicia sesión correctamente:
 
