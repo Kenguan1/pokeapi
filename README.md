@@ -1,16 +1,20 @@
 # pokeapi
-Reto usando la pokeapi en el que se usó React con Vite y Firebase para la db:
+Reto usando la pokeapi en el que se usó React con Vite y Firebase para la db
+
+
 Para inicializar el proyecto usé :
-  npm init vite
-escoger la opción de React y luego JavaScript
+
+  npm init vite (Escoger la opción de React y luego JavaScript)
+
 Luego adentro usé:
+
   npm install firebase (luego crear y configurar el firebase.js dentro de /src con mis keys)
 
 Para correr el proyecto simplemente:
+
   npm run dev
 
 Por otro lado, usé más herramientas que ya tenía instaladas cómo React Router para manejar las rutas.
-
 
 
 VISTAS DEL PROYECTO:
